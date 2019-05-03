@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Obli levering 5</title>
+  <link rel="stylesheet" href="../utforming.css">
+  <link rel="icon" href="../img/OSRSicon.png">
+
+</head>
+
+<body id="background_Image_Right">
+
+  <nav>
+
+    <ul id="ul_Nav">
+      <li class="li_Nav"><a class="active" href="../index.html">Home</a></li>
+      <li class="li_Nav"><a href="../My_Accounts/My_Accounts.html">My Accounts</a></li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Accomplishments</a>
+        <div class="dropdown-content">
+          <a href="../Top_10_Clues/Top_10_Clues.html">Top 10 Clues</a>
+          <a href="#Boss_Drops">Notable boss drops</a>
+          <a href="../My_Pets/My_Pets.html">Pets</a>
+
+        </div>
+      </li>
+
+      <li class="nav_searchbar">
+        <div class="search-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </li>
+
+    </ul>
+  </nav>
+
+  <article id="article_box" class="article_box_one_grid">
+
+
+    <h2>Make account</h2>
+
+    <section>
+      <p>Please enter your name:</p>
+
+      <input type="text" placeholder="Hans Toron" id="nameInput">
+
+      <p id="nameOutput"></p>
+
+      <p>Please enter your phone number:</p>
+
+      <input type="number" placeholder="23345683" id="numberInput">
+
+      <p id="numberOutput"></p>
+
+      <p>Please enter your e-mail:</p>
+
+      <input type="email" placeholder="abc@def.no" id="e-mailInput">
+
+      <p id="e-mailOutput"></p>
+
+      <p>Please enter your password:</p>
+
+      <input type="password" id="passwordInput">
+
+      <p id="passwordOutput"></p>
+
+      <p>Please enter your password again:</p>
+
+      <input type="password" id="passwordInput2">
+
+      <p id="passwordOutput2"></p>
+
+      <p>
+        <button type="button" onclick="validInputCheck('numberInput'); validInputCheck('nameInput'); validInputCheck('e-mailInput'); validInputCheck('passwordInput'); validInputCheck('passwordInput2')">Submit</button>
+      </p>
+
+    </section>
+
+
+  </article>
+
+  <footer class="footer">
+    <h1>Copyright &copy;2019 Trym Vaaland<br><small>Last edidted: <time datetime="2019-02-20">20.02.2019</time></small></h1>
+  </footer>
+  <script src="Innlevering_5.js"></script>
+</body>
+
+</html>
